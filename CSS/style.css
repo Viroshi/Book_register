@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100dvh;
+    width: 100dvw;
+    overflow-x: hidden;
+}
+
+.row-verse
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.row-reverse
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div.container-login {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: all 1s ease;
+}
+
+div.container-login-imagem  
+{
+    background-image: url('../images/book.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75%;
+    height: 100%;
+}
+
+div.container-login-cadastro
+{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.box-login
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    padding: 10%;
+    border-radius: 15px;
+}
+
+div.box-login > .form-login
+{
+    width: 100%;
+}
+
+div.box-login > .form-login > div
+{
+    margin: 10% 0 10% 0;
+    width: 100%;
+}
+
+div.box-login > .form-login > .button-form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
